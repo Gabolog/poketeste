@@ -1,0 +1,99 @@
+
+
+body{
+    background-color: rgb(192, 192, 192);
+}
+.pokeLista{
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width:700px;
+    height: 125px;
+    position: relative;
+    background-color: rgb(19, 154, 154);
+    border-radius: 5px;  
+    justify-content: start;
+    
+}
+
+
+.pokeIndividuo{
+    left: 10px;
+    display: grid;
+    box-sizing: content-box;
+    position: relative;
+    align-items: flex-start;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    
+   
+    
+}
+
+.pokeName{
+    
+    position:absolute;
+       
+    margin: 1px;
+	background: rgb(71, 234, 255);
+	text-align: center;
+	top: 1px;
+    left: 1px;
+}
+
+.pokeType{
+    display: grid;
+    position:absolute;
+    grid-template-columns: repeat(2, 2fr);   
+    margin: 3px;
+	background: rgb(71, 234, 255);
+	text-align: center;
+	bottom: 1px;
+    left: 1px;
+    border-radius: 3px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    gap: 2px;
+}
+.numberOne{
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: .9;
+}
+
+.number1{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+
+    
+}
+.pokeTypeGrass{
+    background: rgb(77, 224, 155);
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    
+
+}
+.pokeTypeGrass:hover .pokeTypeGrassInfo{display: block;}
+.pokeTypePoison{
+    background: rgb(140, 56, 179);
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    border-color: wheat;
+    
+}
+
+.pokeAvatar{
+    width: 100px;
+    
+    position: absolute;
+    right: 12px;
+    top: 6px;
+    
+}
